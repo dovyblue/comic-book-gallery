@@ -8,5 +8,9 @@ namespace ComicBookGallery2.Controllers
 {
     public class ComicBookController : Controller
     {
+        public string Details()
+        {
+            return "hello visual studio";
+        }
     }
 }
